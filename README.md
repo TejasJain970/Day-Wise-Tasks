@@ -1,5 +1,6 @@
 # Socket-Programming
 DAY-1
+
 TCP SERVER
 
 1. Created a Server file and then created a socket
@@ -14,6 +15,7 @@ CLIENT
 3. Data is received and decoded
 
 DAY-2
+
 TCP SERVER 2
 
 1. Added a header of lenght 10 through which a message of maximum 1 billion characters can be shared/received
