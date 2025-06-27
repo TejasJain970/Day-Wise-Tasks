@@ -26,3 +26,13 @@ CLIENT 2
 
 1. Data is received and decoded with a 16 bytes buffer
 2. Message is decoded until all characters and then printed without the header
+
+TCP SERVER 3
+
+1. Used pickle(dumps) to serialize data from object to binary format
+2. In this case dictionary was used
+
+
+CLIENT 3
+1. Used pickle(loads) to deserialize data to object from binary format
+2. Received the dictionary in object form
