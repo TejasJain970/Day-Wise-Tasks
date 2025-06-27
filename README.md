@@ -11,4 +11,16 @@ CLIENT
 
 1. Created a Client file and a new socket
 2. Connection is established on the defined port
-3. Data is received and decoded 
+3. Data is received and decoded
+
+
+TCP SERVER 2
+
+1. Added a header of lenght 10 through which a message of maximum 1 billion characters can be shared/received
+2. Used left alignment for header string interpretation
+
+
+CLIENT 2
+
+1. Data is received and decoded with a 16 bytes buffer
+2. Message is decoded until all characters and then printed without the header
